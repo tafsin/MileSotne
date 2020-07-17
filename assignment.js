@@ -69,8 +69,8 @@ function brickCalculator (floorNum){
     }
 
 }
- var FloorNum=0;
-var TotalBrick =brickCalculator(FloorNum);
+ let FloorNum=0;
+let TotalBrick =brickCalculator(FloorNum);
 console.log(TotalBrick);
  FloorNum=8;
  TotalBrick =brickCalculator(FloorNum);
@@ -104,7 +104,13 @@ function tinyFriend (friendName) {
 
 }
 
-var friends = ["paul","pola","pakhi","","pollobi","purnima","pin"];
-var tinyName = tinyFriend(friends);
+var friends = ["paul","pola","pakhi","pollobi","purnima","pin"];
+let tinyName = tinyFriend(friends);
+console.log(tinyName);
+ friends = [];
+ tinyName = tinyFriend(friends);
+console.log(tinyName);
+ friends = ["paul","pola","","pollobi","purnima","pin"];
+ tinyName = tinyFriend(friends);
 console.log(tinyName);
 
